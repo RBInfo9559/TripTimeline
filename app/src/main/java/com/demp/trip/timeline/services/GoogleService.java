@@ -290,12 +290,11 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
                                     location_address,location_city,location_state,location_country,location_pincode,
                                     start_time,endTime,saved_date);
 
-                            //Log.e("Location Data :","");
-
-                            List<Address> addresses = null;
+                            Log.e("Location Data :","Location Updated!");
 
                             try
                             {
+                                List<Address> addresses = null;
                                 String place_latitude = String.valueOf(mLatitude).trim();
                                 String place_longitude = String.valueOf(mLongitude).trim();
 
