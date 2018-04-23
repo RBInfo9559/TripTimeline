@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Mon Apr 23 16:05:51 IST 2018
+1.base=D\:\\AndroidStudio\\AndroidStudioWorkspace\\TripTimeline\\app\\build\\intermediates\\assets\\debug
+2.path=classes.dex
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=D\:\\AndroidStudio\\AndroidStudioWorkspace\\TripTimeline\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+3.set=ASSET
+2.set=DEX
+1.baseType=DIRECTORY
+3.path=Roboto-Regular.ttf
+count=4
+1.set=ASSET
+0.path=calibri.ttf
+3.base=D\:\\AndroidStudio\\AndroidStudioWorkspace\\TripTimeline\\app\\build\\intermediates\\assets\\debug
+0.set=ASSET
+0.base=D\:\\AndroidStudio\\AndroidStudioWorkspace\\TripTimeline\\app\\build\\intermediates\\assets\\debug
+2.baseType=DIRECTORY
+1.path=Roboto-Black.ttf

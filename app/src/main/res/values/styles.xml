@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Toolbar Style -->
+    <style name="MyToolbarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/toolbar_color</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/toolbar_color_dark</item>
+        <item name="colorAccent">@color/toolbar_item_press_color</item>
+
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+        <item name="android:actionBarItemBackground">@drawable/toolbar_item_selector</item>
+        <item name="android:actionBarWidgetTheme">@style/MyToolbarTheme</item>
+
+        <item name="actionOverflowMenuStyle">@style/PopupMenu</item>
+
+        <!--<item name="colorControlNormal">@color/home_menu_text_color</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>-->
+
+    </style>
+
+    <!-- Actionbar Style Start -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/toolbar_header</item>
+        <item name="android:background">@drawable/toolbar_header</item>
+        <item name="icon">@mipmap/ic_launcher</item>
+        <item name="android:icon">@mipmap/ic_launcher</item>
+    </style>
+
+    <style name="Theme.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/toolbar_title_color</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton">
+        <item name="android:minWidth">0dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+    <!-- Actionbar Style End -->
+
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/app_bg_color</item>
+
+        <!-- Required for pre-Lollipop. -->
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+
+        <!-- Required for Lollipop. -->
+        <!--<item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4.0dip</item>-->
+    </style>
+
+</resources>

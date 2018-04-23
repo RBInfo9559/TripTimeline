@@ -1,0 +1,4 @@
+#Mon Apr 23 16:05:50 IST 2018
+base.0=D\:\\AndroidStudio\\AndroidStudioWorkspace\\TripTimeline\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

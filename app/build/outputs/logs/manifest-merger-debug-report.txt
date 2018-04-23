@@ -1,0 +1,222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\9e834d76dd3098879b1944efab9b07e0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3ee5b69ac2d7c8fb99c5288862e449d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7d3e654377a8512e496b84e157937f1b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\9eadbb046f72fe738233ee9736a073b4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.0.aar\a6250e89e86ea69cfa305c17cd03ea2f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.0.aar\634ff6fae11e803f72252dd74f0a1dd1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0d4b05f87b77235e6f50550e096e145d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6a416b21e4725261f5a8ce0476d2fce1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\5f307fc05ebf909ae645c9e9304ffb81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\610010ac13ac380a63d3a1e354ff92bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\90a49b62fa6308430ca4c7109f0efc7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\3395c5ff7cd12964121f8793d62fed9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e78e10fdcd5e02bfbe5ee0cb012489d3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9876daead7d2cb76d78abfccb3512e49\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\dd24247411571ffe7fa0794d86fc866f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b700609c9a3249ac5fc14df6ed0654e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\60e3f7bfd32d029bb0158b30cd701397\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:6:5-78
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:10:22-76
+application
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:12:5-39:19
+MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\9e834d76dd3098879b1944efab9b07e0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\9e834d76dd3098879b1944efab9b07e0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7d3e654377a8512e496b84e157937f1b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7d3e654377a8512e496b84e157937f1b\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\9eadbb046f72fe738233ee9736a073b4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\9eadbb046f72fe738233ee9736a073b4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.0.aar\a6250e89e86ea69cfa305c17cd03ea2f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.0.aar\a6250e89e86ea69cfa305c17cd03ea2f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.0.aar\634ff6fae11e803f72252dd74f0a1dd1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.0.aar\634ff6fae11e803f72252dd74f0a1dd1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0d4b05f87b77235e6f50550e096e145d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0d4b05f87b77235e6f50550e096e145d\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:16:9-48
+	android:icon
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:18:9-46
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:20:9-22:51
+	android:value
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:21:13-58
+service#com.demp.trip.timeline.services.LocationUpdaterService
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:24:9-67
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:24:18-65
+service#com.demp.trip.timeline.services.MyLocationService
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:26:9-62
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:26:18-60
+service#com.demp.trip.timeline.services.GoogleService
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:28:9-58
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:28:18-56
+activity#com.demp.trip.timeline.HomeActivity
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:30:9-38:20
+	android:screenOrientation
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\9e834d76dd3098879b1944efab9b07e0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\9e834d76dd3098879b1944efab9b07e0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3ee5b69ac2d7c8fb99c5288862e449d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3ee5b69ac2d7c8fb99c5288862e449d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7d3e654377a8512e496b84e157937f1b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\7d3e654377a8512e496b84e157937f1b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\9eadbb046f72fe738233ee9736a073b4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.0.aar\9eadbb046f72fe738233ee9736a073b4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.0.aar\a6250e89e86ea69cfa305c17cd03ea2f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.0.aar\a6250e89e86ea69cfa305c17cd03ea2f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.0.aar\634ff6fae11e803f72252dd74f0a1dd1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.0.aar\634ff6fae11e803f72252dd74f0a1dd1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0d4b05f87b77235e6f50550e096e145d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0d4b05f87b77235e6f50550e096e145d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6a416b21e4725261f5a8ce0476d2fce1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6a416b21e4725261f5a8ce0476d2fce1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\5f307fc05ebf909ae645c9e9304ffb81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\5f307fc05ebf909ae645c9e9304ffb81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\610010ac13ac380a63d3a1e354ff92bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\610010ac13ac380a63d3a1e354ff92bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\90a49b62fa6308430ca4c7109f0efc7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\90a49b62fa6308430ca4c7109f0efc7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\3395c5ff7cd12964121f8793d62fed9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\3395c5ff7cd12964121f8793d62fed9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e78e10fdcd5e02bfbe5ee0cb012489d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e78e10fdcd5e02bfbe5ee0cb012489d3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9876daead7d2cb76d78abfccb3512e49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9876daead7d2cb76d78abfccb3512e49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\dd24247411571ffe7fa0794d86fc866f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\dd24247411571ffe7fa0794d86fc866f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b700609c9a3249ac5fc14df6ed0654e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b700609c9a3249ac5fc14df6ed0654e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\60e3f7bfd32d029bb0158b30cd701397\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\60e3f7bfd32d029bb0158b30cd701397\AndroidManifest.xml:20:5-44
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.0.aar\8c6c80e99703820f3541403349757d7b\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.0.aar\18b2cd072c4d27bfc7501d7a966feaf7\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\ba89c334f832a0fe3186aa990703a059\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0d4b05f87b77235e6f50550e096e145d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\0d4b05f87b77235e6f50550e096e145d\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\30824edff4218d0ac66afeb9c524b3f9\AndroidManifest.xml:27:13-51
