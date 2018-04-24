@@ -65,11 +65,16 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
     GPSTracker gpsTracker;
     GoogleApiClient mGoogleApiClient;
 
-    Context context;
+    Context mContext;
 
     public GoogleService()
     {
 
+    }
+
+    public GoogleService(Context ctx)
+    {
+        mContext = ctx;
     }
 
     @Nullable
@@ -85,13 +90,11 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
         super.onCreate();
 
         geocoder = new Geocoder(this, Locale.getDefault());
-        context=this;
+        mContext = this;
         sqlite_location_history = new SqliteLocationTimeline(this);
         sqlite_location_history.openToWrite();
 
-        mTimer = new Timer();
-        mTimer.schedule(new TimerTaskToGetLocation(), 5, notify_interval);
-        intent = new Intent(str_receiver);
+        startTimer();
 
         if(mGoogleApiClient==null)
         {
@@ -100,6 +103,43 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
                     .addOnConnectionFailedListener(this)
                     .addApi(LocationServices.API)
                     .build();
+        }
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId)
+    {
+        return START_STICKY;
+    }
+
+    @Override
+    public void onDestroy()
+    {
+        super.onDestroy();
+        if(mGoogleApiClient!=null&&mGoogleApiClient.isConnected())
+        {
+            mGoogleApiClient.disconnect();
+        }
+
+        Intent broadcastIntent = new Intent("Service.Restart");
+        sendBroadcast(broadcastIntent);
+        stoptimertask();
+    }
+
+    private void startTimer()
+    {
+        mTimer = new Timer();
+        mTimer.schedule(new TimerTaskToGetLocation(), 5, notify_interval);
+        intent = new Intent(str_receiver);
+    }
+
+    public void stoptimertask()
+    {
+        //stop the timer, if it's not already null
+        if (mTimer != null)
+        {
+            mTimer.cancel();
+            mTimer = null;
         }
     }
 
@@ -415,16 +455,6 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
     {
         super.onStart(intent, startId);
         mGoogleApiClient.connect();
-    }
-
-    @Override
-    public void onDestroy()
-    {
-        super.onDestroy();
-        if(mGoogleApiClient!=null&&mGoogleApiClient.isConnected())
-        {
-            mGoogleApiClient.disconnect();
-        }
     }
 
     /* @Override

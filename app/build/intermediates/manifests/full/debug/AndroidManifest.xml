@@ -25,6 +25,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/MyToolbarTheme" >
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -33,6 +34,16 @@
         <service android:name="com.demp.trip.timeline.services.LocationUpdaterService" />
         <service android:name="com.demp.trip.timeline.services.MyLocationService" />
         <service android:name="com.demp.trip.timeline.services.GoogleService" />
+
+        <receiver
+            android:name="com.demp.trip.timeline.services.ServiceRestartReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped" >
+            <intent-filter>
+                <action android:name="Service.Restart" />
+            </intent-filter>
+        </receiver>
 
         <activity
             android:name="com.demp.trip.timeline.HomeActivity"

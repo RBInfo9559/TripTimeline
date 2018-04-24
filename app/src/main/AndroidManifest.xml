@@ -27,6 +27,16 @@
 
         <service android:name=".services.GoogleService"/>
 
+        <receiver
+            android:name=".services.ServiceRestartReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+            <intent-filter>
+                <action android:name="Service.Restart" />
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name=".HomeActivity"
             android:screenOrientation="portrait">

@@ -1,5 +1,6 @@
 package com.demp.trip.timeline;
 
+import android.app.ActivityManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -68,6 +69,8 @@ public class HomeActivity extends AppCompatActivity
 
     ArrayList<LocationHistoryData> array_location_history = new ArrayList<LocationHistoryData>();
 
+    GoogleService mTimelineService;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -82,6 +85,8 @@ public class HomeActivity extends AppCompatActivity
         app_font_type = Typeface.createFromAsset(getAssets(), AppHelper.app_font_path);
 
         setUpActionBar();
+
+        mTimelineService = new GoogleService(HomeActivity.this);
 
         location_manager = (LocationManager) getSystemService( Context.LOCATION_SERVICE);
         if (!location_manager.isProviderEnabled(LocationManager.GPS_PROVIDER))
@@ -125,31 +130,74 @@ public class HomeActivity extends AppCompatActivity
             {
                 if (boolean_permission)
                 {
-                    Intent intent = new Intent(HomeActivity.this, GoogleService.class);
-                    startService(intent);
-                    /*if (mPref.getString("service", "").matches(""))
-                    {
-                        medit.putString("service", "service").commit();
+                    Intent mServiceIntent = new Intent(HomeActivity.this, GoogleService.class);
+                    startService(mServiceIntent);
 
-                        Intent intent = new Intent(HomeActivity.this, GoogleService.class);
-                        startService(intent);
+                    /*if (!isMyServiceRunning(mTimelineService.getClass()))
+                    {
+                        Log.e("Timeline Service :","Service Start!");
+                        startService(mServiceIntent);
                     }
                     else
                     {
-                        Toast.makeText(getApplicationContext(), "Service is already running", Toast.LENGTH_SHORT).show();
+                        Log.e("Timeline Service :","Service Running!");
                     }*/
+
+                    /*Intent intent = new Intent(HomeActivity.this, GoogleService.class);
+                    startService(intent);*/
                 }
                 else
                 {
-                    Toast.makeText(getApplicationContext(), "Please enable the gps", Toast.LENGTH_SHORT).show();
+                    String toastMessage = "Please enable the gps!";
+                    AppClass.ShowErrorToast(HomeActivity.this,toastMessage);
                 }
-
-                /*Intent i = new Intent(HomeActivity.this,MyLocationService.class);
-                startService(i);*/
             }
         });
 
         CheckPermission();
+
+        //StartServices();
+    }
+
+    private void StartServices()
+    {
+        if (boolean_permission)
+        {
+            Intent mServiceIntent = new Intent(HomeActivity.this, GoogleService.class);
+            startService(mServiceIntent);
+
+            /*if (!isMyServiceRunning(mTimelineService.getClass()))
+            {
+                Log.e("Timeline Service :","Service Start!");
+                startService(mServiceIntent);
+            }
+            else
+            {
+                Log.e("Timeline Service :","Service Running!");
+            }*/
+            //startService(intent);
+        }
+        else
+        {
+            String toastMessage = "Please enable the gps!";
+            AppClass.ShowErrorToast(HomeActivity.this,toastMessage);
+            //Toast.makeText(getApplicationContext(), "Please enable the gps!", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private boolean isMyServiceRunning(Class<?> serviceClass)
+    {
+        ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE))
+        {
+            if (serviceClass.getName().equals(service.service.getClassName()))
+            {
+                Log.e("isMyServiceRunning?", true+"");
+                return true;
+            }
+        }
+        Log.e("isMyServiceRunning?", false+"");
+        return false;
     }
 
     int GPS_REQUEST = 1;
