@@ -118,6 +118,24 @@ public class HomeActivity extends AppCompatActivity
         txt_pincode.setTypeface(app_font_type);
 
         geocoder = new Geocoder(this, Locale.getDefault());
+
+        /*try
+        {
+            List<Address> addresses = null;
+            latitude = 21.22123;
+            longitude = 72.8079;
+
+            addresses = geocoder.getFromLocation(latitude, longitude, 1);
+            String place = addresses.get(0).getFeatureName().trim();
+            String subArea = addresses.get(0).getThoroughfare().trim();
+
+            Log.e("Place Name :", place + " : " + subArea);
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }*/
+
         mPref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         medit = mPref.edit();
 
@@ -305,6 +323,23 @@ public class HomeActivity extends AppCompatActivity
                 String stateName = addresses.get(0).getAdminArea().trim();
                 String countryName = addresses.get(0).getCountryName().trim();
                 String pinCode = addresses.get(0).getPostalCode().trim();
+
+                /*String placeName = addresses.get(0).getFeatureName();
+                String subArea = addresses.get(0).getThoroughfare();
+
+                if(placeName == null || placeName.length() == 0 || placeName.equals("null"))
+                {
+                    placeName = "";
+                }
+
+                if(subArea == null || subArea.length() == 0 || subArea.equals("null"))
+                {
+                    subArea = "";
+                }
+
+                String place = placeName + ", " + subArea;
+
+                Log.e("Place Name :",place);*/
 
                 txt_status.setText(location_update);
 

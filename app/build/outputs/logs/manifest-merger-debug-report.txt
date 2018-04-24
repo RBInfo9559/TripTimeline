@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\f824f3fd05ad2cb3fccbd75a507e7bbb\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\592f1a79068c63fd2cd7461a0cb3c2b0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\b107f34f89e0787f4ffa5ff6ce7f716f\AndroidManifest.xml:2:1-11:12
@@ -25,20 +25,20 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Ranvir\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3950ad25c21a82978278408d18da8837\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9fb2ca0667039b28688ea980367ff699\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f1011a387107b83e00a1061c15be4808\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
 		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:2:11-69
@@ -67,7 +67,7 @@ ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\And
 	android:name
 		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:12:5-49:19
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:12:5-50:19
 MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\f824f3fd05ad2cb3fccbd75a507e7bbb\AndroidManifest.xml:11:5-15:19
 MERGED from [com.valdesekamdem.library:md-toast:0.9.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\md-toast-0.9.0.aar\f824f3fd05ad2cb3fccbd75a507e7bbb\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Ranvir\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\b107f34f89e0787f4ffa5ff6ce7f716f\AndroidManifest.xml:9:5-20
@@ -115,41 +115,43 @@ ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\And
 	android:name
 		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:26:18-60
 service#com.demp.trip.timeline.services.GoogleService
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:28:9-58
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:28:9-29:37
+	android:enabled
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:29:13-35
 	android:name
 		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:28:18-56
 receiver#com.demp.trip.timeline.services.ServiceRestartReceiver
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:30:9-38:20
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:31:9-39:20
 	android:enabled
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:32:13-35
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:33:13-35
 	android:label
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:34:13-54
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:35:13-54
 	android:exported
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:31:13-60
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:32:13-60
 intent-filter#action:name:Service.Restart
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:35:13-37:29
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:36:13-38:29
 action#Service.Restart
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:36:17-58
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:37:17-58
 	android:name
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:36:25-55
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:37:25-55
 activity#com.demp.trip.timeline.HomeActivity
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:40:9-48:20
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:41:9-49:20
 	android:screenOrientation
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:43:13-49
 	android:name
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:41:13-41
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:42:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:43:13-47:29
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:44:17-69
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:44:25-66
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:46:17-77
+ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:46:27-74
+		ADDED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml:47:27-74
 uses-sdk
 INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AndroidStudio\AndroidStudioWorkspace\TripTimeline\app\src\main\AndroidManifest.xml

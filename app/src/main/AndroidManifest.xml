@@ -25,7 +25,8 @@
 
         <service android:name=".services.MyLocationService"/>
 
-        <service android:name=".services.GoogleService"/>
+        <service android:name=".services.GoogleService"
+            android:enabled="true"/>
 
         <receiver
             android:name=".services.ServiceRestartReceiver"

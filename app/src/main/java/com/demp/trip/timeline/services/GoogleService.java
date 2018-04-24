@@ -96,6 +96,10 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
 
         startTimer();
 
+        /*mTimer = new Timer();
+        mTimer.schedule(new TimerTaskToGetLocation(), 5, notify_interval);
+        intent = new Intent(str_receiver);*/
+
         if(mGoogleApiClient==null)
         {
             mGoogleApiClient=new GoogleApiClient.Builder(this)
@@ -106,11 +110,11 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
         }
     }
 
-    @Override
+    /*@Override
     public int onStartCommand(Intent intent, int flags, int startId)
     {
         return START_STICKY;
-    }
+    }*/
 
     @Override
     public void onDestroy()
@@ -476,7 +480,8 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
 
 
     @Override
-    public void onConnected(@Nullable Bundle bundle) {
+    public void onConnected(@Nullable Bundle bundle)
+    {
         setUpMap();
     }
 
@@ -508,7 +513,8 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
 
             mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
 
-            if (mLastLocation != null) {
+            if (mLastLocation != null)
+            {
                 //currentLocation = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
                 //placeMarkerOnMap(currentLocation);
                 mLatitude=mLastLocation.getLatitude();
@@ -542,14 +548,6 @@ public class GoogleService extends Service implements LocationListener,GoogleApi
             });
 
         }
-    }
-
-    private void fn_update(Location location,String loc)
-    {
-        intent.putExtra("latitude",location.getLatitude()+"");
-        intent.putExtra("longitude",location.getLongitude()+"");
-        intent.putExtra("location",loc);
-        sendBroadcast(intent);
     }
 
     private void UpdateLocations(double latitude,double longitude,String loc)

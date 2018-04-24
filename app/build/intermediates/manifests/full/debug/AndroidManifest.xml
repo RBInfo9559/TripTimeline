@@ -33,7 +33,9 @@
 
         <service android:name="com.demp.trip.timeline.services.LocationUpdaterService" />
         <service android:name="com.demp.trip.timeline.services.MyLocationService" />
-        <service android:name="com.demp.trip.timeline.services.GoogleService" />
+        <service
+            android:name="com.demp.trip.timeline.services.GoogleService"
+            android:enabled="true" />
 
         <receiver
             android:name="com.demp.trip.timeline.services.ServiceRestartReceiver"
